@@ -8,8 +8,21 @@ body{
     background-color: #eeff;
     padding-left: 10px;
     margin-left: 10px;
+    display: flex;
 }
 .a_to_e{
     display: flex;
     flex-direction: row;
+}
+.round_word{
+    display: flex;
+    flex-direction: row;
+}
+.shape .round{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 100%;
+    display: flex;
+    
 }
